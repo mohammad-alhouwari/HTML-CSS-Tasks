@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Attributes</title>
+</head>
+<body>
+    <!-- form  -->
+    <form action="Login.html" target="_blank" autocomplete="on"novalidate>
+        <label for="FM">First name:</label><br>
+        <input type="text" id="FM" name="fname" value="mohammad"><br>
+        <label for="LM">Last name:</label><br>
+        <input type="text" id="LM" name="lname" value="alhouwari"><br>
+        <input type="submit" value="Submit">
+      </form>
+      <hr>
+      <header>
+      <!-- select -->
+      <form action="Login.html">
+        <label for="cats">Choose a cat color:</label>
+            <select id="cats" name="cats" size="2" multiple >
+              <option value="orenge">orenge-cat</option>
+              <option value="white" selected>white-cat</option>
+              <option value="black">black-cat</option>
+            </select>
+      </form>
+    </header>
+      <hr>
+      <!-- textarea -->
+        <form action="Login.html">
+            <textarea name="message" rows="10" cols="20">The cat was playing in the garden.</textarea>
+            <br>
+            <input type="submit">
+          </form>
+          <hr>
+      <!-- button  -->
+      <button type="button" onclick="alert('I LOVE CATs')">( ͡° ͜ʖ ͡°)</button>
+      <hr>
+      <!-- fieldset -->
+      <form action="Login.html" method="get">
+        <fieldset>
+          <legend>Log-in:</legend>
+          <label for="Em">Email:</label><br>
+          <input type="text" id="Em" name="Email" placeholder="email"><br>
+          <label for="Pw">Password:</label><br>
+          <input type="password" id="Pw" name="password" placeholder="password"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+        <hr>
+        <!-- datalist -->
+        <p>Choose browser</p>
+        <form action="Login.html">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+            <input type="submit">
+          </form>
+          <hr>
+          <!-- input +   output -->
+          <form action="Login.html" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+          0
+          <input type="range" id="a" name="a" value="50">
+          100 +
+          <input type="number" id="b" name="b" value="50">
+          =
+          <output name="x" for="a b"></output>
+          <br><br>
+          <input type="submit">
+          </form>
+          </form>
+          <hr>
+          <!-- radio  -->
+          <form action="Login.html">
+            <p>Age</p>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label><br>  
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label><br><br>
+            <input type="submit" value="Submit">
+          </form>
+          <hr>
+          <!-- checkbox -->
+          <form action="Login.html"><br>
+            <p>Please select your favorite Web language:</p>
+              <input type="checkbox" id="html" name="fav_language" value="HTML">
+              <label for="html">HTML</label><br>
+              <input type="checkbox" id="css" name="fav_language" value="CSS">
+              <label for="css">CSS</label><br>
+              <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+              <label for="javascript">JavaScript</label>
+          </form>
+          <hr>
+          <!--  -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RXKLBUkD-TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <hr>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d333.3857739905258!2d35.90886928687895!3d31.969900378832108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca12ce1b9c62b%3A0x21b9b701f3f4ee86!2sOrange%20Coding%20Academy!5e0!3m2!1sen!2sjo!4v1687081880646!5m2!1sen!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <hr>
+
+
+          <!-- <a href="https://en.wikipedia.org/wiki/Cat" media="print and (resolution:300dpi)">Open media attribute page for print.</a> -->
+
+
+</body>
+</html>

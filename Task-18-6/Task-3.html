@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise#3</title>
+</head>
+<body>
+    <h1>Basic HTML Form</h1>
+    <table width="400"> <td>
+    <!-- fieldset -->
+    <form action="">
+        <fieldset>
+            <legend>Name:</legend>
+
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" ><br><br>
+
+            <label for="lname">Password:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+        </fieldset>
+        <!-- radio -->
+        <fieldset>
+            <legend>Other Ques:</legend>
+            <span>Choose a drink:</span><br>
+            <input type="radio" id="D1" name="drink" value="D1">
+            <label for="D1">coffee</label><br>
+            <input type="radio" id="D2" name="drink" value="D2"checked>
+            <label for="D2" >tea</label><br>
+            <input type="radio" id="D3" name="drink" value="D3">
+            <label for="D3">No</label>
+            <br><br>
+            <!-- checkbox -->
+            <span>What ice cream do you like?</span><br>
+
+            <input type="checkbox" id="cream1" name="ice-cream" value="Chocolate">
+            <label for="cream1">Chocolate</label><br>
+
+            <input type="checkbox" id="cream2" name="ice-cream" value="Chocolate-Pudding">
+            <label for="cream2">Chocolate Pudding</label><br>
+
+            <input type="checkbox" id="cream3" name="ice-cream" value="Chocolate-Peanut-Butter"checked>
+            <label for="cream3">Chocolate Peanut Butter</label><br>
+
+            <input type="checkbox" id="cream4" name="ice-cream" value="Vanilla">
+            <label for="cream4">Vanilla</label><br>
+
+            <input type="checkbox" id="cream5" name="ice-cream" value="Strawberry">
+            <label for="cream5">Strawberry</label><br>
+            <br><br>
+
+            <!-- select -->
+            <label for="school">Select school:</label><br>
+            <select id="school" name="school">
+            <option value="Havard">Havard</option>
+            <option value="Yarmouk" >Yarmouk</option>
+            </select>
+            <br><br>
+            <!-- textarea -->
+            <label for="Pinfo">Please provide comments:</label>
+            <textarea name="Pinfo" id="Pinfo" rows="5" cols="25"></textarea><br><br>
+            </fieldset><br>
+            <!-- submit  -->
+            <input type="submit" value="submit">
+         </form>
+</td></table>
+</body>
+</html>
