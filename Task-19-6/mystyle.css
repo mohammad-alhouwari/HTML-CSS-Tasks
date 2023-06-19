@@ -1,0 +1,16 @@
+h2 {
+    color: navy;
+    margin-left: 20px;
+  }
+p  {
+    color: red;
+    text-align: center;
+    border: 3px dotted blue;
+    border-style: dotted;
+    border-radius: 30px;
+  }
+.cat {
+    border:7px dashed whitesmoke ;
+    text-align: right;
+    padding: 10px;
+}
