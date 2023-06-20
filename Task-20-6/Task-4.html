@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px black dotted;
+            margin: 10px;
+            margin-bottom: 30px;
+            width: 412px;
+            height: 100px;
+            position: relative;
+        }
+        div p{
+            margin: 0px;
+            display: inline-block;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            
+        }
+
+        h3{
+            margin-left: 20px;
+        }
+        #p1{background-color: green;
+        }
+        #p2{background-color: green;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        #p3{background-color: green;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h3>position: static</h3>
+    <div>
+        <p>One</p>
+        <p id="p1">Two</p>
+        <p>Three</p>
+        <p>Four</p>
+    </div>
+    <h3>position: relative</h3>
+    <div>
+        <p>One</p>
+        <p id="p2">Two</p>
+        <p>Three</p>
+        <p>Four</p>
+    </div>
+    <h3>position: absolute</h3>
+    <div style="width: 308px;">
+        <p>One</p>
+        <p id="p3">Two</p>
+        <p>Three</p>
+        <p>Four</p>
+    </div>
+</body>
+</html>
