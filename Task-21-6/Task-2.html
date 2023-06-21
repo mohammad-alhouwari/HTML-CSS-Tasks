@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        #Main-div{
+            margin-left:-250px;
+            position: relative;
+            left: 50%;
+            width: 500px;
+            height: 500px;
+        }
+        .div1{
+            width: 100%;
+            display: grid;
+            column-gap:10px ; 
+            row-gap: 20px; ;     
+          }
+        .G1{
+            height: 350px;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 10% 25% 25% 25%;
+            margin-bottom: 30px;
+        }
+        .G2{
+            height: 150px;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 60% 25%;
+        }
+        .gray{ background-color: gray;color: grey;}
+        .orange{ background-color: orange;color: orange;}
+        .blue{background-color: blue;color: blue; grid-column:span 2 }
+        .skyblue{background-color: skyblue; color: skyblue;}
+        .yellow{background-color: yellow; color: yellow;}
+
+        .w1{grid-column:span 3}
+        .w2{grid-column:span 4}
+        
+    </style>
+</head>
+<body>
+    <div id="Main-div">
+        <div class="div1 G1">
+            <div class="gray w1">1</div>
+            <div class="blue">1</div>
+            <div class="skyblue">1</div>
+            <div class="yellow">1</div>
+            <div class="yellow">1</div>
+            <div class="yellow">1</div>
+            <div class="skyblue">1</div>
+            <div class="blue">1</div>
+        </div>
+
+
+
+        <div class="div1 G2">
+            <div class="orange">2</div>
+            <div class="orange">2</div>
+            <div class="orange">2</div>
+            <div class="orange">2</div>
+            <div class="gray w2">2</div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
