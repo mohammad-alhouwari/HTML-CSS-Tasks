@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        #D1{
+            background-color: greenyellow;
+            color: greenyellow;
+            width: 98%;
+            margin: 1%;
+            
+        }
+        #D2{
+            display:grid;
+            margin: 1%;
+
+        }
+        #D3{
+            display:grid;
+            margin: 1%;
+        }
+        #D2 > div {background-color: aqua; color: aqua;}
+        #D3 > div {background-color: gray; color: gray;}
+/* Mobile */
+        @media only screen and (max-width: 480px ){
+            #D1{
+                height: 20vh;
+                margin: 2%;
+                
+            }
+            #D2{
+                height: 65vh;
+                grid-template-columns: 100%;
+                grid-template-rows: auto auto auto;
+                gap: 2%;
+                
+            }
+            #D3{
+                height: 70vh;
+                grid-template-columns: 100%;
+                gap: 2%;               
+            }
+        }
+/* tablet */
+        @media only screen and (max-width: 768px ) and (min-width:481px ){
+            #D1{
+                height: 30vh;
+                
+            }
+            #D2{
+                height: 40vh;
+                grid-template-columns: 100%;
+                grid-template-rows: auto auto auto;
+                gap: 3%;
+                
+            }
+            #D3{
+                height: 25vh;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto ;
+                gap: 3%;
+            }
+        }
+/* Desktop */
+        @media only screen and (min-width:769px ){
+            #D1{
+                
+                height: 35vh;
+
+            }
+            #D2{
+                height: 35vh;
+                grid-template-columns: auto auto auto;
+                grid-template-rows: 100%;
+                gap: 1%;
+                
+        
+
+            }
+            #D3{
+                height: 25vh;
+                grid-template-columns: auto auto auto auto ;
+                grid-template-rows: auto ;
+                gap: 1%;
+            }
+                
+            }
+
+        }
+
+
+    </style>
+</head>
+<body><center>
+    <div id="D1">1</div>
+    <div id="D2">
+        <div>2</div>
+        <div>2</div>
+        <div>2</div>
+    </div>
+    <div id="D3">
+        <div>3</div>
+        <div>3</div>
+        <div>3</div>
+        <div>3</div>
+    </div>
+</center>
+</body>
+</html>
