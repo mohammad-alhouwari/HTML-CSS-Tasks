@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        #div1{
+            background-color: green;
+            height: 100px;
+            width:  100px;
+            border-radius: 10px;
+            position: relative;
+            animation: move 10s infinite linear, 
+            color 10s infinite linear;
+        }
+        @keyframes move {
+            0% {
+                left: 400px;
+                top: 0px;
+            
+            }
+            25% {
+                left: 400px;
+                top: 300px;
+
+            }
+            50% {
+                left: 0px;
+                top: 300px;
+
+            }
+            75% {
+                left: 0px;
+                top: 0px;
+
+            }
+            100% {
+                left: 100px;
+                top: 0px;
+
+            }
+        
+            
+            
+            
+        }
+        @keyframes color {
+            0% {
+                background-image: linear-gradient(green, aqua);
+            }
+            20% {
+                background-image: linear-gradient(aqua, blue);
+            }
+            40% {
+                background-image: linear-gradient(blue, yellow);
+            }
+            60% {
+                background-image: linear-gradient(yellow, orange);
+
+            }
+            80% {
+                background-image: linear-gradient(orange, brown);
+
+            }
+            100% {
+                background-image: linear-gradient(brown, green);
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>
