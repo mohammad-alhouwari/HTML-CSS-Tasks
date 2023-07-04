@@ -499,7 +499,6 @@ box-sizing: border-box;
     #ex-ed{ width: 90vw;}
     #ex-ed>div{grid-template-columns: auto;}
     .ex-ed-logo{height: 30vw;width: 30vw;border-radius: 10px;}
-    .ex-ed-logo>img{}
     .F-ex-ed>div>.sup-header{font-size: small;}
     .F-ex-ed>div>.sub-header{font-size: x-small;}
     .F-L>.ex-ed-logo{margin-right: 10px;}
