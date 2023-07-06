@@ -281,6 +281,7 @@ body:hover #por1 {
     flex-direction: row-reverse;
 }
 .F-ex-ed>div>p{text-align: center;}
+.F-ex-ed>div>h4{text-align: center;}
 
 .ex-ed-logo{
     box-sizing: border-box;
@@ -350,10 +351,6 @@ box-sizing: border-box;
 
 
 
-
-
-
-
 @media only screen and (min-width:769px ){
     /* shared start */
     .sup-header{font-size: medium;}
@@ -410,6 +407,8 @@ box-sizing: border-box;
     .F-L{flex-direction: row-reverse;}
     .F-ex-ed>div>.sup-header{font-size: large;margin-top: 60px;}
     .F-ex-ed>div>.sub-header{font-size: medium;}
+    .F-ex-ed>div>h4{ margin: 1vw 0 -3vw 0;}
+    .F-ex-ed>div>p{margin: 0px;}
     /* ex-ed end */
 
     /* reference start */
@@ -422,9 +421,6 @@ box-sizing: border-box;
     #footer-text>img{width: 80px;margin-top: 10px; margin-left: auto; margin-right: auto;}
     #footer-text>.sub-header{font-size: medium; width: 20vw; text-align: center;}
     /* contact end */
-
-
-
 }
 
 @media only screen and (max-width: 768px ) and (min-width:481px ){
@@ -477,6 +473,8 @@ box-sizing: border-box;
     /* hire end */
 
     /* ex-ed start */
+    .F-ex-ed>div>h4{ margin: 1vw 0 -3vw 0;}
+    .F-ex-ed>div>p{margin: 0px;}
     /* ex-ed end */
 
     /* reference start */
@@ -552,6 +550,8 @@ box-sizing: border-box;
     .F-ex-ed>div>.sub-header{font-size: x-small;}
     .F-L>.ex-ed-logo{margin-right: 10px;}
     .F-R>.ex-ed-logo{margin-left: 10px;}
+    .F-ex-ed>div>h4{font-size: small;  margin: 1vw 0 -3vw 0;}
+    .F-ex-ed>div>p{margin: 0px;}
     /* ex-ed end */
 
     /* reference start */
